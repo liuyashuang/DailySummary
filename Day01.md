@@ -13,7 +13,7 @@ public BigDecimal(int val) //将int表示形式转换成 BigDecimal
 public BigDecimal(String val) //将String表示形式转换成 BigDecimal
 ```
 
-![代码展示](https://github.com/liu yashuang/DailySummary/blob/master/img/day0101.png)
+![代码展示](https://github.com/liuyashuang/DailySummary/blob/master/img/day0101.png)
 
 JDK的描述：参数类型为double的构造方法的结果有一定的不可预知性</br>
 另一方面：String构造方法是完全可预知的，通常建议优先使用String 构造方法</br>
