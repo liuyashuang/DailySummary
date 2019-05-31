@@ -6,11 +6,11 @@
 <P>计算机是二进制的，浮点数没有办法用二进制进行精确表示。
 cpu表示浮点数由两个部分组成：指数和尾数，这样的表示方法一般都会丢失一定的精度，有些浮点数运算也会产生一定的误差</P>
 ###### 1) BigDecimal构造方法</br>
-  ```
-  public BigDecimal(double val) //将double表示形式转换为BigDecimal(不建议使用)
-  public BigDecimal(int val) //将int表示形式转换成 BigDecimal
-  public BigDecimal(String val) //将String表示形式转换成 BigDecimal
-  ```
+```
+public BigDecimal(double val) //将double表示形式转换为BigDecimal(不建议使用)
+public BigDecimal(int val) //将int表示形式转换成 BigDecimal
+public BigDecimal(String val) //将String表示形式转换成 BigDecimal
+```
 
 ![代码展示](https://github.com/liu yashuang/DailySummary/blob/master/img/day0101.png)
 
